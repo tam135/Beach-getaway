@@ -5,7 +5,7 @@ import './Hero.css'
 const Hero = ({children, hero}) => {
     return (
         <header className={hero}>
-        
+            {children}
         </header>
     );
 }
