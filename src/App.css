@@ -7,7 +7,9 @@
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --lightYellow: #FBF8EE;
+  --lightCream: #FBF8EE;
+  --lighterCream: rgb(255, 246, 219);
+  --mainBlue: rgb(2, 79, 124);
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
@@ -96,7 +98,7 @@ h6 {
   left: 0;
   width: 100%;
   padding: 1.1rem 2rem;
-  background: var(--lightYellow);
+  background: var(--lightCream);
   z-index: 1;
 }
 .nav-header {
@@ -251,8 +253,9 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: var(--lighterCream);
   text-align: center;
+  
 }
 .services-center {
   width: 90vw;
@@ -262,14 +265,31 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
+
+.service {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .2s; 
+}
+
+.service:hover {
+  transform: translateY(-1.3rem) scaleY(1.03);
+}
+
 .service span {
   display: inline-block;
-  color: var(--primaryColor);
+  color: var(--mainBlue);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#333));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
 }
 .services p {
   width: 80%;
