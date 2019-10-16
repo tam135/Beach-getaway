@@ -8,7 +8,7 @@
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --lightCream: #FBF8EE;
-  --lighterCream: rgb(255, 246, 219);
+  --lighterCream: #f7f3ea;
   --mainBlue: rgb(2, 79, 124);
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -267,7 +267,7 @@ h6 {
 }
 
 .service {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -549,3 +549,43 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+
+/* lower nav */
+.lowerNav {
+  background-image: url('./images/teal.jpg');
+  height: 45px;
+  
+}
+
+.lowerNav__container {
+  height: 45px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.col {
+  color: var(--mainWhite);
+}
+
+.col p {
+  margin-top: .7rem;
+  font-weight: 600;
+}
+.col-md-9 {
+  width: 75%;
+
+}
+.col-md-3 {
+  text-align: right;
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .lowerNav {
+    display: none;
+  }
+}
+
+/* End of lower Nav */
