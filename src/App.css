@@ -7,6 +7,7 @@
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
+  --lightYellow: #FBF8EE;
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
@@ -53,6 +54,7 @@ h6 {
   margin-bottom: 1.5em;
 }
 
+
 .btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -94,13 +96,26 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+  /* background: var(--offWhite); */
+  background: var(--lightYellow);
   z-index: 1;
 }
 .nav-header {
   display: flex;
   justify-content: space-between;
 }
+
+.nav-header>a {
+  height: 30px;
+  text-decoration: none;
+  font-family: 'Norican', cursive;
+  color: #1f7eaa;
+  margin: auto 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+
 .nav-btn {
   background: transparent;
   border: none;

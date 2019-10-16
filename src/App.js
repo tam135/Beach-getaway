@@ -8,6 +8,8 @@ import Error from './pages/Error';
 
 import { Route, Switch} from 'react-router-dom';
 
+import './App.css'
+
 import Navbar from './components/Navbar'
 
 export default class App extends Component {
