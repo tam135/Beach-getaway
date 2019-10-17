@@ -8,7 +8,7 @@
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --lightCream: #FBF8EE;
-  --lighterCream: #f7f3ea;
+  --lighterCream: #F8F1E2;
   --mainBlue: rgb(2, 79, 124);
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -267,7 +267,7 @@ h6 {
 }
 
 .service {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
