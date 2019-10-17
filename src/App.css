@@ -312,6 +312,7 @@ h6 {
 
 .featured-rooms {
   padding: 5rem 0;
+  background-color: var(--lightCream);
 }
 .featured-rooms-center {
   width: 80vw;
