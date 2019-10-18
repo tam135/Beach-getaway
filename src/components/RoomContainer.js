@@ -31,7 +31,6 @@ export default function RoomContainer() {
                 }
                 return (
                     <div>
-                        Hello from rooms RoomContainer
                         <RoomsFilter rooms={rooms}/>
                         <RoomsList rooms={sortedRooms}/>
                     </div>
