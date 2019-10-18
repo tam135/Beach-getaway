@@ -32,15 +32,48 @@ export default class SingleRoom extends Component {
             </div>
         }
 
-        const { name, description, capacity, size, price, extras, breakfast, images } = room
+        const { name, description, capacity, size, price, extras, breakfast, images, pets } = room
+        const [mainImg, ...defaultImg] = images;
         return (
-            <StyledHero img={images[0]}>
-                <Banner title={`${name} room`}>
-                    <Link to='/rooms' className='btn-primary'>
-                        back to rooms
-                    </Link>
-                </Banner>
-            </StyledHero>
+            <>
+                <StyledHero img={mainImg || this.state.defaultBcg}>
+                    <Banner title={`${name} room`}>
+                        <Link to='/rooms' className='btn-primary'>
+                            back to rooms
+                        </Link>
+                    </Banner>
+                </StyledHero>
+
+                <section className='single-room'>
+                    <div className="single-room-images">
+                        {defaultImg.map((item, index) => {
+                            return <img key={index} src={item} alt={name}/>
+                        })}
+                    </div>
+                    <div className="single-room-info">
+                        <article className="descr">
+                            <h3>Details</h3>
+                            <p>{description}</p>
+                        </article>
+                        <article className="info">
+                            <h3>Info</h3>
+                            <h6>Price : ${price}</h6>
+                            <h6>Size: {size} SQFT</h6>
+                            <h6>Max capacity: {capacity > 1 ? `${capacity} people` : `${capacity} person `}</h6>
+                            <h6>{pets ? 'pets allowed' : 'no pets allowed'}</h6>
+                            <h6>{breakfast && 'free breakfast included'}</h6>
+                        </article>
+                    </div>
+                </section>
+                <section className="room-extras">
+                    <h6>extra</h6>
+                    <ul className="extra">
+                        {extras.map((extra, index) => {
+                            return <li key={index}>{extra}</li>
+                        })}
+                    </ul>
+                </section>
+            </>
         )
     }
 }
