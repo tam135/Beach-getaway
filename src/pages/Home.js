@@ -5,6 +5,7 @@ import Services from '../components/Services'
 import FeaturedRooms from '../components/FeaturedRooms'
 import LowerNavBar from '../components/LowerNavBar'
 import {Link} from 'react-router-dom'
+import StyledHero from '../components/StyledHero';
 
 export default function Home() {
     return (
