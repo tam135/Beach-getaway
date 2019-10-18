@@ -23,7 +23,7 @@ export default class Navbar extends Component {
               <div className="nav-header">
                 <Link to="/">
                   {/* <img src={logo} alt='Tropical Resort'/>  */}
-                  <h3>Tropical Getaway</h3>
+                  <h3>Beach Getaway</h3>
                 </Link>
 
                 <button
