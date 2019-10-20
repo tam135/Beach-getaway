@@ -592,3 +592,55 @@ h6 {
 }
 
 /* End of lower Nav */
+
+/* sign up component */
+
+.signup {
+  padding: 4rem 0;
+}
+
+.signup__container {
+
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.signup-inputs {
+  margin-top: 15px;
+  margin: 1rem;
+}
+
+.signup-button {
+  padding: .43rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+}
+
+.signup-button:hover {
+  cursor: pointer;
+}
+
+input[type=text] {
+  height: 2.2rem;
+  width: 50%;
+  font-size: 1rem;
+  margin-right: 1rem;
+  padding: .6rem;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+}
+
+@media screen and (max-width: 576px) {
+  .signup__container {
+    width: 80%;
+  }
+
+  input[type=text] {
+    width: 60%;
+  }
+}
