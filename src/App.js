@@ -8,7 +8,7 @@ import Error from './pages/Error';
 
 import { Route, Switch} from 'react-router-dom';
 
-import './App.css'
+import './styles/main.css'
 
 import Navbar from './components/Navbar'
 

@@ -1,0 +1,17 @@
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/button';
+
+@import 'layout/navbar';
+
+body {
+  padding-top: 66px;
+  color: $mainBlack;
+  background: $mainWhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
