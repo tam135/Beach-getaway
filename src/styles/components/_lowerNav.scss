@@ -1,0 +1,35 @@
+.lowerNav {
+    background-image: url('../images/teal.jpg');
+    height: 45px;
+
+    &__container {
+        height: 45px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+.col {
+    color: $mainWhite;
+
+    & p {
+        margin-top: .7rem;
+        font-weight: 600;
+    }
+
+    &-md-9 {
+        width: 75%;
+    }
+
+    &-md-3 {
+        text-align: right;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .lowerNav {
+    display: none;
+  }
+}

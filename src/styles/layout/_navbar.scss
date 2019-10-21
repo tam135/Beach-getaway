@@ -47,7 +47,7 @@
         transition: $mainTransition;
         list-style-type: none;
 
-        & a {
+        & a{
             display: block;
             text-decoration: none;
             padding: 1rem 0;
@@ -58,7 +58,7 @@
             font-weight: 600;
             letter-spacing: $mainSpacing;
 
-            :hover {
+            &:hover {
                 color: $primaryColor;
             }
         }

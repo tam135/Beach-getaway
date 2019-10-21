@@ -5,8 +5,22 @@
 @import 'base/utilities';
 
 @import 'components/button';
+@import 'components/hero';
+@import 'components/banner';
+@import 'components/title';
+@import 'components/services';
+@import 'components/featuredRooms';
+@import 'components/room';
+@import 'components/roomsList';
+@import 'components/filters';
+@import 'components/lowerNav';
+@import 'components/signUp';
+
 
 @import 'layout/navbar';
+@import 'layout/footer';
+
+@import 'pages/singleRoom';
 
 body {
   padding-top: 66px;
