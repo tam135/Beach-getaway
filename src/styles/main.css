@@ -151,7 +151,7 @@ h6 {
 
 .section-title h4 {
   font-size: 2rem;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: 3px;
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
@@ -160,7 +160,7 @@ h6 {
   width: 5rem;
   height: 5px;
   margin: 0 auto;
-  background: var(--primaryColor);
+  background: #af9a7d;
 }
 
 .services {
@@ -181,7 +181,7 @@ h6 {
 }
 
 .service {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 1.5rem;
   border-radius: 5px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -232,7 +232,7 @@ h6 {
 
 .featured-rooms {
   padding: 5rem 0;
-  background-color: #FBF8EE;
+  background-color: #FDFBF3;
 }
 
 .featured-rooms-center {
