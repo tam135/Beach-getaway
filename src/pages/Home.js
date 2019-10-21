@@ -7,6 +7,7 @@ import LowerNavBar from '../components/LowerNavBar'
 import {Link} from 'react-router-dom'
 import StyledHero from '../components/StyledHero';
 import SignUp from '../components/SignUp'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
@@ -22,6 +23,7 @@ export default function Home() {
             <Services/>
             <FeaturedRooms/>
             <SignUp />
+            <Footer />
         </>
     )
 }

@@ -597,10 +597,10 @@ h6 {
 
 .signup {
   padding: 4rem 0;
+  background-color: var(--lighterCream);
 }
 
 .signup__container {
-
   max-width: 1140px;
   text-align: center;
   margin: 0 auto;
@@ -642,5 +642,87 @@ input[type=text] {
 
   input[type=text] {
     width: 60%;
+  }
+}
+
+/* end of sign up */
+
+/* footer */ 
+.footer {
+  background-color: var(--mainBlue);
+  color: #FEFBF4;
+  height: 35vh;
+}
+
+.footer-icons-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: .5rem;
+}
+
+.footer-icons-ul li {
+  padding: 1rem;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center
+}
+
+.footer-info-col {
+  border-top: 1px solid #fff;
+  padding-top: 1rem;
+  width: 12rem;
+  margin: 2rem 4rem;
+}
+
+.footer-info-col>h5{
+  font-size: 1.2rem;
+  margin-bottom: .3rem;
+}
+
+.footer-info-col>ul>li {
+  list-style-type: none;
+  margin-bottom: .3rem;
+}
+
+
+.footer-links, .footer-icons {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer-hr {
+  width: 30px;
+}
+
+.footer-links:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.footer-links:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media screen and (max-width: 576px) {
+  .footer-info-col {
+    width: 5rem;
+    margin: 1.3rem;
   }
 }
