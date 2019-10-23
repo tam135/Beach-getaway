@@ -7,5 +7,5 @@ Hotel Reservation site that allows you to view different rooms available and has
 React, Context API, CSS, SASS
 
 ## Screenshots
-![](./src/images/screenshot1.png)
-![](./src/images/screenshot2.png)
+!(./src/images/screenshot1.png)
+!(./src/images/screenshot2.png)
