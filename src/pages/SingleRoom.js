@@ -5,6 +5,7 @@ import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
 import { RoomContext } from '../context';
 import StyledHero from '../components/StyledHero'
+import Footer from '../components/Footer'
 
 export default class SingleRoom extends Component {
     constructor(props) {
@@ -73,6 +74,7 @@ export default class SingleRoom extends Component {
                         })}
                     </ul>
                 </section>
+                <Footer/>
             </>
         )
     }

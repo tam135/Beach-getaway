@@ -521,6 +521,16 @@ input[type=text] {
   }
 }
 
+.slideshow-img {
+  height: 70vh;
+}
+
+.carousel .slide .legend {
+  font-size: .9rem;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0.5;
+}
+
 .navbar {
   position: fixed;
   top: 0;

@@ -3,15 +3,11 @@ import Hero from '../components/Hero'
 import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
 import RoomContainer from '../components/RoomContainer'
-
+import Slideshow from '../components/Carousel';
 const Rooms = () => {
     return (
         <>
-            <Hero hero='roomsHero'>
-                <Banner title='our rooms'>
-                    <Link to='/' className='btn-primary'>Return home</Link>
-                </Banner>
-            </Hero>
+            <Slideshow/>
             <RoomContainer/>
         </>
     )

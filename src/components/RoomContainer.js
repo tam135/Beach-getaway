@@ -4,6 +4,7 @@ import { withRoomConsumer } from "../context";
 import Loading from "./Loading.js";
 import RoomsFilter from "./RoomsFilter";
 import RoomsList from "./RoomsList";
+import Footer from './Footer';
 import {RoomConsumer} from '../context'
 
 /* function RoomContainer({ context }) {
@@ -33,6 +34,7 @@ export default function RoomContainer() {
                     <div>
                         <RoomsFilter rooms={rooms}/>
                         <RoomsList rooms={sortedRooms}/>
+                        <Footer/>
                     </div>
                 )
             }}
